@@ -120,5 +120,5 @@ io.on("connection", function(socket){
 
 //Start the http server at port and IP defined before
 http.listen(app.get("port"), app.get("ipaddr"), function() {
-  console.log("Server up and running. Go to http://creepinson.xyz" + ":" + app.get("port"));
+  console.log("Server up and running. Go to http://ipaddress" + ":" + app.get("port"));
 });
