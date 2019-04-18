@@ -34,10 +34,10 @@ var participants = [];
 /* Server config */
 
 //Server's IP address
-app.set("ipaddr", "127.0.0.1");
+app.set("ipaddr", "0.0.0.0");
 
 //Server's port number
-app.set("port", 8080);
+app.set("port", 3000);
 
 //Specify the views folder
 app.set("views", __dirname + "/views");
@@ -120,5 +120,5 @@ io.on("connection", function(socket){
 
 //Start the http server at port and IP defined before
 http.listen(app.get("port"), app.get("ipaddr"), function() {
-  console.log("Server up and running. Go to http://" + app.get("ipaddr") + ":" + app.get("port"));
+  console.log("Server up and running. Go to http://creepinson.xyz" + ":" + app.get("port"));
 });

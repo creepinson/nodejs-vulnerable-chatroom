@@ -1,3 +1,9 @@
-A simple chatroom built in [Node.js](http://nodejs.org) using [Express](http://expressjs.com) + [Socket.IO](http://socket.io/).
+A simple (and vulnerable) chatroom built in [Node.js](http://nodejs.org) using [Express](http://expressjs.com) + [Socket.IO](http://socket.io/).
+The credits go to the original chatroom by wmora on github.
 
-A tutorial on how it's built is [here](http://williammora.com/nodejs-tutorial-building-chatroom-with).
+HOW TO EXPLOIT VULNERABLITY (SPOILER BELOW):
+
+>! Enter <script>SCRPT GOES HERE</script>  
+>! in the chat and click share and boom! the script gets 
+>! executed for everyone on the chat server!
+
